@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  margin-top: 50px;
+}
+.todo{
+  height: 100vh;
+  margin-top: 50px;
+  text-align: center;
+}
+
+input{
+  height: 30px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding-left: 10px;
+ 
+}
+.add{
+  margin-left: 10px;
+  width: 60px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  height: 30px;
+}
+
+.list-items{
+  margin: auto;
+  margin-top: 50px;
+  width: 550px;
+
+}
+
+
+li{
+  border: 2px solid gray;
+  padding: 10px;
+  margin:20px;
+  list-style: none;
+  border-radius: 30px;
+  text-align: left;  
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+.edit,.delete{
+  
+  cursor: pointer;
+  margin-left:10px ;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 50px;
+  
+}
+
+
