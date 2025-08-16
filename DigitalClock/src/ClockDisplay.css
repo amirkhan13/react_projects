@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+   
+
+
+
+}
+
+body{
+background: linear-gradient(135deg, #8e2de2, #4a00e0);
+}
+.clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.clock{
+    display: flex;
+    
+}
+.hours , .seconds ,.minutes{
+    font-size: 50px;
+    background-color: white;
+    margin-left: 10px;
+    width: 80px;
+    text-align: center; 
+    line-height: 80px;
+    height: 80px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+span{
+    font-size: 50px;
+    color: white;
+
+}
+.time-format{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+button{
+    width: 100px;
+    color: black;
+    background: white;
+    margin-top: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.time-format{
+    color: white;
+    margin-top:30px ;
+}
