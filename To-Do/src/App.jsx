@@ -27,7 +27,7 @@ function App() {
   }
 
   const deleteTodo=(index)=>{
-    setTodos((prevTodos)=>prevTodos.filter((_,i)=>i!==index))
+    setTodos((prevTodos)=>prevTodos.filter((_,id)=>id!==index))
    
   }
 
