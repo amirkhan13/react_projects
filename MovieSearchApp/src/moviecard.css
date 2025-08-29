@@ -1,0 +1,35 @@
+.card-container {
+  width: 100%;
+  max-width: 300px;
+  height: 500px;
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background: var(--card-bg);
+  word-break: normal;
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.img-container {
+  border: 2px solid var(--border-color);
+  height: 300px;
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 10px;
+  color: var(--btn-text);
+}

@@ -1,0 +1,55 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: var(--card-bg);
+}
+
+h1 {
+  margin-left: 20px;
+  color: var(--btn-text);
+}
+
+.search {
+  margin-left: 300px;
+}
+
+.search input {
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 10px;
+  border: 2px solid var(--border-color);
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+::placeholder {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.search-button {
+  margin-left: 15px;
+}
+
+.search-button  button {
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--btn-text);
+  background-color: var(--btn-bg);
+  border: 2px solid var(--border-color);
+}
+.theme-button{
+  height: 30px;
+  width: 80px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--btn-text);
+  background-color: var(--btn-bg);
+  border: 2px solid var(--border-color);
+}

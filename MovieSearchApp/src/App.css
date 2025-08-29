@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.light {
+  --bg-color: white;
+  --text-color: white;
+  --card-bg: darkcyan;
+  --border-color: white;
+  --btn-bg: darkcyan;
+  --btn-text: white;
+}
+
+.dark {
+  --bg-color: black;
+  --text-color: white;
+  --card-bg: #013a3a; 
+  --border-color: white;
+  --btn-bg: darkcyan;
+  --btn-text: white;
+  
+}
+
+.light,
+.dark {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
