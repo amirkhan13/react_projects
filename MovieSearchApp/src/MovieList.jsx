@@ -13,8 +13,7 @@ function MovieList() {
     const location =useLocation()
     const params = new URLSearchParams(location.search)
     const search = params.get("search")
-    console.log("search",search)
-  
+ 
     const {movies ,loading , currentPage,setCurrentPage,totalPages} =useContext(MovieContext)
   
     

@@ -1,0 +1,51 @@
+.navBar{
+    height: 80px;
+    display: flex;
+    background: #000;
+    
+
+}
+.leftNavbar{
+    width: 80px;
+    height: 77px;
+    display: flex;  
+    margin-left: 30px;
+   
+    
+}
+.logo{
+    border-radius:50% ;
+    border: 2px solid wheat;
+}
+
+.leftNavbar .logo img{
+   height: 100%;
+   border-radius: 50%;
+   width: 100%;
+}
+.rightNavbar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 30px;
+    gap: 20px;
+    color: wheat;
+}
+
+.rightNavbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.navItems a {
+  text-decoration: none;   
+  color: inherit;          
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navItems a:hover {
+  color: rgb(202, 148, 54); 
+}

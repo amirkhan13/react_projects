@@ -1,0 +1,32 @@
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    gap: 20px;
+}
+.search-input input{
+    width: 800px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+
+.category-select {
+    padding: 8px 15px;
+    border-radius: 5px;
+    width: 100px;
+    border: 2px solid grey;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+}
+
+
+
+

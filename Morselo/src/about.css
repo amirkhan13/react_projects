@@ -1,0 +1,94 @@
+.about-container {
+  max-width: 850px;
+  margin: 60px auto;
+  padding: 40px 50px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Roboto, sans-serif;
+  color: #2c2c2c;
+  line-height: 1.8;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.about-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ff5a36;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.about-container h2 {
+  margin: 25px 0 15px;
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: 600;
+  border-left: 4px solid #ff5a36;
+  padding-left: 10px;
+}
+
+.about-container p {
+  margin-bottom: 18px;
+  font-size: 1.1rem;
+}
+
+.about-container .intro {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  color: #444;
+}
+
+.about-container .brand {
+  font-weight: bold;
+  color: #ff5a36;
+}
+
+.about-features ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.about-features ul li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  list-style: none;
+  position: relative;
+  padding-left: 10px;
+}
+
+.about-features ul li::before {
+  content: "•";
+  color: #ff5a36;
+  font-weight: bold;
+  position: absolute;
+  left: -10px;
+}
+
+.about-container .closing {
+  margin-top: 40px;
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+.about-container a {
+  color: #ff5a36;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 5px;
+  transition: color 0.2s ease;
+}
+
+.about-container a:hover {
+  color: #e14b2a;
+  text-decoration: underline;
+}
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}

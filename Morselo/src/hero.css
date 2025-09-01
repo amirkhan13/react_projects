@@ -1,0 +1,58 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    height: 450px;
+    margin-top: 50px;
+    width: 85%;
+    margin-left:150px ;
+    border-radius: 15px;
+    background: url('https://p0.piqsels.com/preview/992/679/740/dark-ingredient-ingredients-red.jpg');
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+}
+
+.headline{
+    font-size: 40px;
+    text-align: center;
+    word-wrap:break-word;
+    margin-top:0;
+    color: rgb(245, 222, 179)
+}
+
+
+.sub-headline p{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
+    color:  rgb(245, 222, 179);
+    font-style: italic;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.recipe-button button{
+    background-color: rgba(235, 89, 17);
+    border: 2px solid wheat;
+}
+.drinks-button button{
+    background-color: rgb(6, 69, 6);
+    border: 2px solid wheat;
+}
